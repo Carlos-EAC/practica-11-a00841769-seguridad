@@ -1,0 +1,9 @@
+== Ejercicio 0 ==
+Instrucciones: para cada promesa de la tabla, decidan si su prueba puede correr en la JVM o necesita el emulador.
+Promesa                                         | JVM o necesita emulador
+No dejar publicar un título de 2 letras         | JVM
+Decir «hace 1 h», no «hace 60 min»              | JVM
+Subir la imagen antes que el aviso              | emulador
+Mandar un aviso aunque toques dos veces         | emulador
+Decir la verdad cuando el servidor rechaza      | emulador
+Que TalkBack anuncie la imagen                  | emulador
