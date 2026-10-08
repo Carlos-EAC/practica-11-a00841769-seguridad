@@ -30,6 +30,9 @@ android {
         versionName = "1.0"
 
         buildConfigField("String", "API_URL", "\"$apiUrl\"")
+
+        // Quién corre las pruebas instrumentadas (las de src/androidTest) en el emulador.
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -50,6 +53,7 @@ android {
 dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.junit.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.lifecycle.runtime.compose)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
@@ -84,4 +88,9 @@ dependencies {
 
     // Pruebas locales (src/test): corren en la JVM de tu computadora, sin emulador.
     testImplementation(libs.junit)
+
+    // Pruebas instrumentadas (src/androidTest): corren en el emulador, con Android de verdad.
+    androidTestImplementation(libs.androidx.test.ext.junit)
+    androidTestImplementation(libs.androidx.test.runner)
+    androidTestImplementation(libs.kotlinx.coroutines.test)
 }
