@@ -7,3 +7,6 @@ Subir la imagen antes que el aviso              | emulador
 Mandar un aviso aunque toques dos veces         | emulador
 Decir la verdad cuando el servidor rechaza      | emulador
 Que TalkBack anuncie la imagen                  | emulador
+
+== Ejercicio C3 ==
+No porque "Imagen del aviso" no dice de qué aviso viene. Sería mejor que diga el título del anuncio en cuestión.
