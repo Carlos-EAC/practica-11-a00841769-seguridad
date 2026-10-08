@@ -10,3 +10,10 @@ Que TalkBack anuncie la imagen                  | emulador
 
 == Ejercicio C3 ==
 No porque "Imagen del aviso" no dice de qué aviso viene. Sería mejor que diga el título del anuncio en cuestión.
+
+== D2 - Cuatro mutantes ==
+Después de cada cambio, fallaron las siguientes pruebas.
+1. un_titulo_de_3_y_uno_de_60_caracteres_son_validos()
+2. a_los_59_minutos_todavia_son_minutos_y_a_los_60_ya_es_una_hora()
+3. tocar_publicar_dos_veces_manda_un_solo_aviso()
+4. la_imagen_elegida_se_anuncia_y_se_puede_quitar()
